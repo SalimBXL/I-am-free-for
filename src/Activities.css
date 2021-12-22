@@ -1,0 +1,16 @@
+.Activities {
+  background-color: lightsteelblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Activities-button {
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+  background-color: whitesmoke;
+  color: slategrey;
+}
