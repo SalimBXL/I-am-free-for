@@ -1,4 +1,3 @@
-const { isYieldExpression } = require("typescript");
 const Activities = require("../src/data/activities.json");
 
 describe("Testing Data", () => {
@@ -8,15 +7,30 @@ describe("Testing Data", () => {
         expect(activities.length).toBe(8);
     });
 
-    it("expect the Label property to be filled", () => {
+    
+
+    it("expect the Label property to exist", () => {
         activities.map((activity) => {
-            expect(activity.label).toBeTruthy();
+            expect(activity.label).toBeDefined();
         });
     });
 
-    it("expect the Checked property to exists", () => {
+    it("expect the label to be a string", () => {
         activities.map((activity) => {
-            expect(activity.checked).toBeTruthy();
+            expect(activity.label).toEqual(jasmine.any(String));
+        });
+    });
+
+
+
+    it("expect the Checked property to exist", () => {
+        activities.map((activity) => {
+            expect(activity.checked).toBeDefined();
+    });
+
+    it("expect the Checked property to be boolean", () => {
+        activities.map((activity) => {
+            expect(activity.checked).toEqual(jasmine.any(Boolean));
         });
     });
 });
