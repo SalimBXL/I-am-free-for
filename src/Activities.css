@@ -4,6 +4,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  border: none;
+  border-radius: 5px;
 }
 
 .Activities-button {

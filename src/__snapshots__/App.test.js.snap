@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot Test 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    I Am Free For...
+  </h1>
+  <h2>
+    Start sharing your free time with your friends!
+  </h2>
+  <div
+    className="Activities"
+  >
+    <button
+      className="Activities-button"
+      onClick={[Function]}
+      style={null}
+    >
+      SPORT
+    </button>
+    <button
+      className="Activities-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+          "color": "white",
+        }
+      }
+    >
+      COFFEE
+    </button>
+    <button
+      className="Activities-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+          "color": "white",
+        }
+      }
+    >
+      RESTAURANT
+    </button>
+    <button
+      className="Activities-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+          "color": "white",
+        }
+      }
+    >
+      BARS
+    </button>
+    <button
+      className="Activities-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+          "color": "white",
+        }
+      }
+    >
+      CLUB
+    </button>
+    <button
+      className="Activities-button"
+      onClick={[Function]}
+      style={null}
+    >
+      CINEMA
+    </button>
+    <button
+      className="Activities-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+          "color": "white",
+        }
+      }
+    >
+      NETFLIX
+    </button>
+    <button
+      className="Activities-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "lightgrey",
+          "color": "white",
+        }
+      }
+    >
+      ADULT
+    </button>
+  </div>
+  <div />
+</div>
+`;

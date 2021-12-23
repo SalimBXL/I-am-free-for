@@ -1,16 +1,7 @@
 import React from "react";
 import "./Activities.css";
 
-const activities = [
-  { label: "sport", checked: true },
-  { label: "coffee", checked: false },
-  { label: "restaurant", checked: false },
-  { label: "bars", checked: false },
-  { label: "club", checked: false },
-  { label: "cinema", checked: true },
-  { label: "netflix", checked: false },
-  { label: "adult", checked: false }
-];
+const activities = require("./data/activities.json");
 
 const ActivityButton = ({ label, checked }) => {
   const handleClick = ({ target }) => {};

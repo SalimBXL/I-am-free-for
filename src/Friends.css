@@ -5,8 +5,14 @@
     border-radius: 5px;
     padding: 1em;
     margin: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
+
 .Friends-Friend {
-    
+    background-color: lightsalmon;
+    color: black;
 }
