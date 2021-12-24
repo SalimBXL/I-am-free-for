@@ -1,4 +1,4 @@
-import activities from "./activities.json";
+import activities from "../../data/activities.json";
 
 test("Expect to have 8 activities in activities.json", () => {
     expect(activities.length).toBe(8);

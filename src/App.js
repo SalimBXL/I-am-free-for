@@ -1,6 +1,6 @@
 import "./styles.css";
-import Activities from "./Activities";
-import Friends from "./Friends";
+import Activities from "./components/Activities/Activities";
+import Friends from "./components/Friends/Friends";
 
 export default function App() {
   return (

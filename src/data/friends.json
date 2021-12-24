@@ -1,0 +1,7 @@
+[
+    { "id": 0, "pseudo": "Pseudo#1", "phone": "phoneNumber#1", "hide": ["sport", "adult"] },
+    { "id": 1, "pseudo": "Pseudo#2", "phone": "phoneNumber#2", "hide": [] },
+    { "id": 2, "pseudo": "Pseudo#3", "phone": "phoneNumber#3", "hide": ["adult"] },
+    { "id": 3, "pseudo": "Pseudo#4", "phone": "phoneNumber#4", "hide": ["coffee", "restaurant", "bars", "club", "cinema", "netflix"] },
+    { "id": 4, "pseudo": "Pseudo#5", "phone": "phoneNumber#5", "hide": [] }
+]

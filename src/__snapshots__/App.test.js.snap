@@ -110,7 +110,8 @@ exports[`App Snapshot Test 1`] = `
       Pseudo#1
        (
       phoneNumber#1
-      )
+      ) -- 
+      sport adult
     </p>
     <p
       className="Friends-Friend"
@@ -118,7 +119,35 @@ exports[`App Snapshot Test 1`] = `
       Pseudo#2
        (
       phoneNumber#2
-      )
+      ) -- 
+      
+    </p>
+    <p
+      className="Friends-Friend"
+    >
+      Pseudo#3
+       (
+      phoneNumber#3
+      ) -- 
+      adult
+    </p>
+    <p
+      className="Friends-Friend"
+    >
+      Pseudo#4
+       (
+      phoneNumber#4
+      ) -- 
+      coffee restaurant bars club cinema netflix
+    </p>
+    <p
+      className="Friends-Friend"
+    >
+      Pseudo#5
+       (
+      phoneNumber#5
+      ) -- 
+      
     </p>
   </div>
 </div>
