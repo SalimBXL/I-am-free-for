@@ -9,6 +9,7 @@ const Friend = ({friend}) => {
 
     return (
     <p key={friend.id} className="Friends-Friend">
+        <span class="material-icons">person</span>
         {friend.pseudo} ({friend.phone}) -- {hiddenActivities}
     </p>
 )}
