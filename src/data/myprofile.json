@@ -1,0 +1,26 @@
+{
+    
+    "info": {
+        "id": 0,
+        "fullname": "My Full Name",
+        "email": "my_email@email.com",
+        "mobile": "+32478623612"
+    },
+    "activities": [
+        { "label": "sport", "checked": true },
+        { "label": "coffee", "checked": false },
+        { "label": "restaurant", "checked": false },
+        { "label": "bars", "checked": false },
+        { "label": "club", "checked": false },
+        { "label": "cinema", "checked": true },
+        { "label": "netflix", "checked": false },
+        { "label": "adult", "checked": false }
+    ],
+    "friends": [
+        { "friend_id": 5, "pseudo": "Pseudo#1", "phone": "phoneNumber#1", "shared_activities": ["sport", "adult"] },
+        { "friend_id": 1, "pseudo": "Pseudo#2", "phone": "phoneNumber#2", "shared_activities": [] },
+        { "friend_id": 2, "pseudo": "Pseudo#3", "phone": "phoneNumber#3", "shared_activities": ["adult"] },
+        { "friend_id": 3, "pseudo": "Pseudo#4", "phone": "phoneNumber#4", "shared_activities": ["coffee", "restaurant", "bars", "club", "cinema", "netflix"] },
+        { "friend_id": 4, "pseudo": "Pseudo#5", "phone": "phoneNumber#5", "shared_activities": [] }
+    ]
+}

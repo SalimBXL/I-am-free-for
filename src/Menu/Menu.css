@@ -1,0 +1,32 @@
+.Menu {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 48px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.Menu-item {
+    color: #00c0e0;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Menu-item-active {
+    color: #00a0f0;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.Menu-item-unavailable {
+    color: #80f080;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.Menu-item, .Menu-item-active, .Menu-item-unavailable {
+    font-size: 2rem;
+}
