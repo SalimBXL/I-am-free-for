@@ -16,7 +16,7 @@ const Menu = () => {
             </NavLink>
 
             <NavLink className={"Menu-item " + isActive} to="/profile">
-                <i class="fas fa-user-friends"></i>
+                <i className="fas fa-user-friends"></i>
             </NavLink>
 
             <div className={"Menu-item " + isActive}><i className="fas fa-home" /></div>
