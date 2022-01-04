@@ -12,19 +12,17 @@ const Menu = () => {
         <div className="Menu">
         
             <NavLink className={"Menu-item " + isActive} to="/">
-                <i className="fas fa-home" />
+                <i className="fas fa-home Menu-item-icon" />
             </NavLink>
 
             <NavLink className={"Menu-item " + isActive} to="/profile">
-                <i className="fas fa-user-friends"></i>
+                <i className="fas fa-user-friends Menu-item-icon" />
             </NavLink>
 
-            <div className={"Menu-item " + isActive}><i className="fas fa-home" /></div>
-
-            <div className={"Menu-item " + isActive}><i className="fas fa-home" /></div>
-
-            <div className={"Menu-item " + isActive}><i className="fas fa-home" /></div>
-
+            <NavLink className={"Menu-item " + isActive} to="/config">
+                <i className="fas fa-cog Menu-item-icon" />
+            </NavLink>
+            
         </div>
     );
 }
