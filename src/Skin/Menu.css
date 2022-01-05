@@ -11,13 +11,13 @@
 }
 
 .Menu-item {
-    color: #00c0e0;
+    color: hsla(189, 100%, 44%, 0.557);
     font-weight: normal;
     font-style: normal;
 }
 
 .Menu-item-active {
-    color: #00a0f0;
+    color: #00bee0;
     font-weight: bold;
     font-style: normal;
 }
