@@ -1,0 +1,12 @@
+.Friends {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.Friends-search {
+    border-bottom: 1px solid hsla(120, 79%, 72%, 0.4);
+    width: 100%;
+}

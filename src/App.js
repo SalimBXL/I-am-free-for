@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Skin from "./Skin";
 import Home from "./pages/Home";
-import Profile from "./pages/Profile";
+import Friends from "./pages/Friends";
 import Config from "./pages/Config";
 import "./App.css";
 
